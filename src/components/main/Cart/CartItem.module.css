@@ -1,0 +1,98 @@
+.article {
+
+    margin: 1.5rem;
+    margin-bottom: 1.6rem;
+    
+    
+    }
+    
+    .figure {
+    
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .img {
+    
+        width: 3.1rem;
+        height: 3.2rem;
+        border-radius: 5px;
+    }
+    
+    .caption {
+    
+        display: flex;
+        flex-direction: column;
+        margin: 0 1rem;
+        margin-right: 1.1rem;
+    
+    }
+    
+    .item-name {
+    
+        text-transform: capitalize;
+        font-family: extraLightFont;
+        color: var(--dark-grayish-blue);
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        /* letter-spacing: 0.035rem; */
+      
+    }
+    
+    .price {
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .delete-box {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+    
+    }
+    
+    .delete-icon {
+    
+        width: .875rem;
+        height: 1rem;
+        fill:  #C3CAD9; 
+        cursor: pointer;
+       
+    }
+    
+    .price {
+    
+        font-family: regularFont;
+        color: var(--dark-grayish-blue);
+    
+    }
+    
+    .unit-price {
+    
+        font-family: regularFont;
+        color: var(--dark-grayish-blue);
+       
+    }
+    
+    .total-price {
+    
+        font-family: boldFont;
+        color: var(--black);
+        margin-left: 0.5rem;
+        font-size: 1.05rem;
+    }
+    
+    
+    /* For Mobile  */
+    
+    @media screen and (max-width: 399px) {
+    
+        .img {
+    
+            align-self: flex-start;
+        }
+    }

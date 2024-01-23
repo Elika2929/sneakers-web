@@ -1,0 +1,314 @@
+.aside {
+
+    margin-left: 5.7rem;
+    margin-right: 5rem;
+   
+}
+
+.head {
+
+    font-family: extraBoldFont;
+    font-size: 0.85rem;
+    color: var(--orange);
+    letter-spacing: 0.12rem;
+    opacity: 0.9;
+    text-transform: uppercase;
+}
+
+.subHead {
+
+    font-family: boldFont;
+    font-size: 2.8rem;
+    margin-top: 1.1rem;
+    color: var(--very-dark-blue);
+   
+}
+
+.paragraph {
+
+    margin-top: 2rem;
+    color: var(--dark-grayish-blue);
+    font-family: regularFont;
+    line-height: 1.8rem;
+    font-size: 1.02rem;
+   
+}
+
+
+.quantity-container {
+
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+   
+    
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1199px) and (min-width: 1100px) {
+
+
+ .aside {
+
+    margin-left: 5rem;
+
+ }
+        
+    }
+
+    
+@media screen and (max-width: 1099px) and (min-width: 1000px) {
+
+    .aside {
+
+        margin-left: 4.5rem;
+    
+     }
+
+     
+     .subHead {
+
+        font-size: 2.5rem;
+        
+     }
+}
+
+
+@media screen and (max-width: 999px) and (min-width: 900px) {
+    
+    .aside {
+
+        margin-left: 4.2rem;
+    
+     }
+
+     
+     .subHead {
+
+        font-size: 2rem;
+        
+     }
+
+     
+    .paragraph {
+
+    margin-top: 1.5rem;
+    line-height: 1.8rem;
+
+    }
+}
+
+
+@media screen and (max-width: 899px) and (min-width: 850px) {
+    
+    .aside {
+
+        margin-left: 3rem;
+    
+     }
+
+     
+     .subHead {
+
+        font-size: 2rem;
+        
+     }
+
+     
+    .paragraph {
+
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+
+    }
+}
+
+
+
+@media screen and (max-width: 849px) and (min-width: 800px) {
+    
+    .aside {
+
+        margin-left: 2rem;
+    
+     }
+
+     
+     .subHead {
+
+        font-size: 1.8rem;
+        
+     }
+
+     
+    .paragraph {
+
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+
+    }
+}
+
+
+/* For Mobile  */
+
+
+@media screen and (max-width: 799px) and (min-width: 700px)   {
+                                                                                       
+    .aside {
+
+        margin: 2rem 4rem 4rem;
+         
+    }
+
+    
+    .quantity-container {
+
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }  
+
+}
+
+
+@media screen and (max-width: 699px) and (min-width: 600px)   {
+                                                                                       
+    .aside {
+
+        margin: 2rem 3rem 4rem;
+         
+    }
+
+    
+    .quantity-container {
+
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }  
+
+}
+
+
+@media screen and (max-width: 599px) and (min-width: 500px)   {
+                                                                                       
+    .aside {
+
+        margin: 2rem 2.5rem 4rem;
+         
+    }
+
+    
+    .quantity-container {
+
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }  
+
+    
+.subHead {
+
+    font-size: 2.5rem;
+
+   
+}
+
+}
+
+
+@media screen and (max-width: 499px) and (min-width: 400px)   {
+                                                                                       
+    .aside {
+
+        margin: 2rem 2rem 3rem;
+         
+    }
+
+    
+    .quantity-container {
+
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }  
+
+    
+.subHead {
+
+    font-size: 2rem;
+   
+}
+
+.paragraph {
+
+    line-height: 1.65rem;
+    margin-top: 1.5rem;
+
+}
+
+}
+
+
+@media screen and (max-width: 399px) and (min-width: 320px)   {
+                                                                                       
+    .aside {
+
+        margin: 2rem 1.5rem 3rem;
+         
+    }
+
+    
+    .quantity-container {
+
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }  
+
+    
+.subHead {
+
+    font-size: 1.8rem;
+   
+}
+
+.paragraph {
+
+    line-height: 1.65rem;
+    margin-top: 1.5rem;
+
+}
+
+}
+
+
+@media screen and (max-width: 319px)   {
+                                                                                       
+    .aside {
+
+        margin: 2rem 1.5rem 3rem;
+         
+    }
+
+    
+    .quantity-container {
+
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }  
+
+    
+.subHead {
+
+    font-size: 1.5rem;
+   
+}
+
+.paragraph {
+
+    line-height: 1.65rem;
+    margin-top: 1.5rem;
+
+}
+
+}

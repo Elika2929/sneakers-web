@@ -1,0 +1,62 @@
+.section {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.7rem;
+}
+
+.img {
+
+    width: 4.5rem;
+    height: 4.4rem;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0 0.75rem;
+    background: white;
+    
+}
+
+.current-box {
+
+    border: 2px solid rgb(255, 140, 0);
+
+}
+
+.current-img {
+
+    opacity: 0.3;
+}
+
+
+.img:not(.current-img) {
+
+    transition: opacity 0.3s;
+}
+
+.img:not(.current-img):hover {
+
+opacity: 0.5;
+    
+}
+
+
+/* Media Queries */
+
+@media screen and (max-height:599px) {
+
+    .section {
+
+        margin-bottom: 40px;
+    }
+
+}

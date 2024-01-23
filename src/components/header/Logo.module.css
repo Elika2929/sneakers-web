@@ -1,0 +1,36 @@
+.logo-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.logo {
+
+    width: 8.625rem;
+    height: 1.25rem;
+    transform: translateY(-2px);
+}
+
+
+@media screen and (max-width: 849px) and (min-width: 800px) {
+
+   
+.logo {
+
+    transform: translateY(-2px) scale(0.9);
+}
+}
+
+/* For Mobile  */
+
+@media screen and (max-width: 399px) {
+
+ .logo {
+    transform: translateY(-2px) scale(0.9);
+ }
+
+ }
+   

@@ -1,0 +1,73 @@
+.menu-box {
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+
+    width: 1rem;
+    height: 0.9375rem;
+    cursor: pointer;
+
+}
+
+
+/* For Mobile  */
+
+
+@media screen and (max-width: 799px) and (min-width: 500px) {
+
+    .menu-box {
+
+        display: flex;
+        margin-right: 2rem;
+       
+    }
+
+    .menu {
+
+   transform: scale(1.25);
+
+    }
+
+ }
+   
+ 
+@media screen and (max-width: 499px) {
+
+    .menu-box {
+
+        display: flex;
+        margin-right: 2rem;
+       
+    }
+
+    .menu {
+
+   transform: scale(1.15);
+
+    }
+
+ }
+   
+  
+@media screen and (max-width: 399px) {
+
+    .menu-box {
+
+        display: flex;
+        margin-right: 0.5rem;
+       
+    }
+
+    .menu {
+
+   transform: scale(1.1);
+
+    }
+
+ }
+   
