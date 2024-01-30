@@ -6,20 +6,27 @@ import { ImageNavContext, LoadImageContext } from '../../Contexts'
 
 const ThumbnailGallery = () => {
 
+
   const [ currentImg, setCurrentImg ] = useState(1);
+
 
   const [ loading, setLoading ] = useState(true);
 
+
   const images = [
+
 
     './assets/images/image-product-1.jpg',
     './assets/images/image-product-2.jpg',
     './assets/images/image-product-3.jpg',
     './assets/images/image-product-4.jpg'
 
+    
   ]
 
  
+
+
 
   return (
 
