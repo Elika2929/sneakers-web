@@ -5,7 +5,7 @@ import Main from './components/main/Main'
 import styles from './App.module.css'
 import { CartContext, CartItemContext, ItemCountContext, SideNavContext  } from './components/Contexts';
 import { CustomerReview } from './components/main/customer-reviews-components/CustomerReviews'
-// import { addReview }  from './components/main/customer-reviews-components/AddReview'
+import { AddReview }  from './components/main/customer-reviews-components/AddReview'
 import { product } from './components/main/data'
 
 
@@ -19,14 +19,16 @@ const [ itemCount, setItemCount ] = useState(0);
 
 const [ showSidenav, setShowSideNav ] = useState(false);
 
-// const [AddReview, setAddReview] = useState(false)
+const [addReview, setAddReview] = useState(false)
 const [userData, setUserData] = useState(product.reviews)
-// const [editForm, setEditForm] = useState(false)
+const [editForm, setEditForm] = useState(false)
 const [editUser, setEditUser] = useState({
   headline: '',
   writtenReview: '',
   starRating: null
 })
+
+// const setAddReview = useState(false); 
 
 
   return (
@@ -44,7 +46,7 @@ const [editUser, setEditUser] = useState({
 
     <Main />
 
-    {/* <AddReview
+    <AddReview
   setAddReview={setAddReview} 
   setUserData={setUserData} 
   userData={userData}
@@ -52,16 +54,16 @@ const [editUser, setEditUser] = useState({
   editForm={editForm}
   setEditForm={setEditForm}
   setEditUser={setEditUser}
-/> */}
+/>
 
 
     <CustomerReview
-  //  setAddReview={setAddReview} 
+   setAddReview={setAddReview} 
    userData={userData} 
    setUserData={setUserData}
    setEditUser={setEditUser}
    editUser={editUser}
-  //  setEditForm={setEditForm}
+   setEditForm={setEditForm}
     /> 
 
     </SideNavContext.Provider>

@@ -1,12 +1,12 @@
 
 import { RateStars } from './RateStars'
-import './Addreview.module.css'
+import './Addreview.css'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import { validationSchema } from '../Formik-components/AddReviewForm'
 import { loggedInUser } from '../data'
 
 
-export const addReview = (props) => {
+export const AddReview = (props) => {
 
     const submitForm = (values) => {    
         

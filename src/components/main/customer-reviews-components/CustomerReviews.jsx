@@ -1,5 +1,5 @@
 
-import './CustomerReviews.module.css'
+import './CustomerReviews.css'
 import { UsersComponent } from './UsersComponents'
 import { loggedInUser } from '../data'
 
